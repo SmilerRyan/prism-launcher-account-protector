@@ -37,6 +37,6 @@ For example, if you had 0 offline accounts and 2 non-offline accounts, the file 
 ```
 
 Note, this is NOT a replacement for security.  
-This is purely just to encrypt your account so they have to be decrypted before being used.
+This is purely just to encrypt your account so they have to be decrypted before being used, so you can KNOW your account tokens aren't accessable in plain text if you aren't opening the game.
 
-If you want actual security, I'd recommend creating a BitLocker drive, mounting it, and playing minecraft through that, then unmounting when done, but that's too overkill for this.
+If you want actual security, I'd recommend creating a BitLocker drive, mounting it, and playing minecraft through that, then unmounting when done, but that's got the same issues as this (able to read the file whilst decrypted/mounted or still read from process) and is too overkill for this.
